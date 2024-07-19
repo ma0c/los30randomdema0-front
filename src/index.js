@@ -9,12 +9,19 @@ import './index.css';
 import App from './App';
 import Root from "./routes/root";
 import reportWebVitals from './reportWebVitals';
+import ErrorPage from "./error_page";
+import Registration from "./routes/registration";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App />,
+    errorElement: <ErrorPage />,
   },
+  {
+    path: "registration",
+    element: <Registration />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
