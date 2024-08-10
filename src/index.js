@@ -7,10 +7,11 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Root from "./routes/root";
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./error_page";
 import Registration from "./routes/registration";
+import ProfileInfo from "./routes/profileInfo";
+import ProfileConfirm from "./routes/profileConfirm";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "registration",
     element: <Registration />
+  },
+  {
+    path: "profile/:profile-name",
+    element: <ProfileInfo />
+  },
+  {
+    path: "profile/:profile-name/confirm",
+    element: <ProfileConfirm />
   }
 ]);
 
