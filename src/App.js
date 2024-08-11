@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Ma0 is doing something here
+          Ma0 is cooking something here
         </p>
         
       </header>
