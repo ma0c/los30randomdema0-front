@@ -11,7 +11,6 @@ import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./error_page";
 import Registration from "./routes/registration";
 import ProfileInfo from "./routes/profileInfo";
-import ProfileConfirm from "./routes/profileConfirm";
 
 const router = createBrowserRouter([
   {
@@ -20,16 +19,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "registration",
-    element: <Registration />
-  },
-  {
-    path: "profile/:profile-name",
+    path: "profile/:slug",
     element: <ProfileInfo />
   },
   {
-    path: "profile/:profile-name/confirm",
-    element: <ProfileConfirm />
+    path: "profile/:slug/confirm",
+    element: <Registration />
   }
 ]);
 

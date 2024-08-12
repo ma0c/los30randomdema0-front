@@ -1,183 +1,140 @@
 import { useForm } from "react-hook-form";
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import {useLocation} from "react-router-dom";
+import {Form} from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 
 
 export default function Registration() {
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const {state} = useLocation();
+    const profile = state.profile;
+  const {
+      register,
+      handleSubmit,
+      watch,
+      formState: { errors } } = useForm(
+      {
+          defaultValues: {
+                name: profile.name,
+            phone: profile.phone,
+            whatsapp: profile.phone,
+            instagram: profile.instagram,
+              possible_attendee: profile.id
+          }
+      }
+  );
   const name = watch("name")
-  const onSubmit = data => console.log(data);
+   const onSubmit = (data) => console.log(data)
+
   return (
     <Container className={"p-4"}>
-      
-      <div className="logo">
-            <img src="../cabecera.png" />
-          </div>
-      <Row className={"justify-content-center"}>
-        <Col sm={8}>
-          <Card className={'mt-2 px-5 py-3'}>
-            <Card.Body className={'text-center'}>
-              <Card.Title>
-                <h1 className="form-title">Register</h1>
-              </Card.Title>
-              <Form>
-
-                <Row>
-                  <Col sm={6}>
+        <Form onSubmit={handleSubmit(onSubmit)}>
+            <Row>
+              <Col>
+                  <Card className={'mt-5'}>
+                      <Card.Img style={{width: '50%', margin: 'auto'}}
+                                src={profile.profile_pic || "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/240px-User-avatar.svg.png"}></Card.Img>
+                      <Card.Body className={'text-center'}>
+                          <Row>
+                              <Col>
+                                  {profile.name}
+                              </Col>
+                          </Row>
+                          <Row>
+                              <Col>
+                                  {profile.phone}
+                              </Col>
+                          </Row>
+                          <Row>
+                              <Col>
+                                  {profile.instagram}
+                              </Col>
+                          </Row>
+                      </Card.Body>
+                  </Card>
+              </Col>
+                <input type="hidden" {...register("name")}/>
+                <input type="hidden" {...register("phone")}/>
+                <input type="hidden" {...register("instagram")}/>
+                <input type="hidden" {...register("possible_attendee")}/>
+            </Row>
+            <Row>
+                <Col sm={6}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                      <Form.Label className={"form-label"}>Name</Form.Label>
-                      <Form.Control className={"form-control"} type="text" required/>
-                    </Form.Group>
-                  </Col>
-                  <Col sm={6}>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                      <Form.Label className={"form-label"}>Phone</Form.Label>
-                      <Form.Control className={"form-control"} type="number" required/>
-                    </Form.Group>
-                  </Col>
-                  <Col sm={6}>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                      <Form.Label className={"form-label"}>Plus one</Form.Label>
-                      <Form.Control className={"form-control"} type="email" required/>
-                    </Form.Group>
-                  </Col>
-                  <Col sm={6}>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                      <Form.Label className={"form-label"}>Email</Form.Label>
-                      <Form.Control className={"form-control"} type="email" required/>
+                      <Form.Label className={"form-label"}>+1</Form.Label>
+                      <Form.Check className={"form-control"} {...register("extra_attendees")} />
                     </Form.Group>
                   </Col>
                   <Col sm={6}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                       <Form.Label className={"form-label"}>Alcohol</Form.Label>
-                      <Form.Select className={"form-select"} aria-label="Default select example" required>
-                        <option disabled>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                      <Form.Select className={"form-select"} aria-label="Default select example" required {...register("alcohol")}>
+                        <option disabled>Selecciona alguna</option>
+                        <option value="1">Voy Manejando</option>
+                        <option value="2">Un par de copitas y melo</option>
+                        <option value="3">Si gotea repito</option>
+                        <option value="4">Voy a hacer una elmada, traigame un balde</option>
                       </Form.Select>
                     </Form.Group>
                   </Col>
                   <Col sm={6}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                       <Form.Label className={"form-label"}>Weed</Form.Label>
-                      <Form.Select className={"form-select"} aria-label="Default select example" required>
-                        <option disabled>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                      <Form.Select className={"form-select"} aria-label="Default select example" required {...register("weed")}>
+                        <option disabled>Selecciona alguna</option>
+                        <option value="1">Nada, mi mama no me deja</option>
+                        <option value="2">Par de ploncitos</option>
+                        <option value="3">Si sobra me llevo</option>
+                        <option value="4">Llevo quien me pilotee que voy al infinito y mas alla</option>
                       </Form.Select>
                     </Form.Group>
                   </Col>
-                </Row>
+                  <Col sm={6}>
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                      <Form.Label className={"form-label"}>Tipo de dieta</Form.Label>
+                      <Form.Select className={"form-select"} aria-label="Default select example" required {...register("vegetarian")}>
+                        <option disabled>Selecciona alguna</option>
+                        <option value="1">Vegetariano</option>
+                        <option value="2">Me como lo que me pongan</option>
+                        <option value="3">Soy judio</option>
+                        <option value="4">Soy vegano, fastidioso y voy a llevar mi propia comida</option>
+                      </Form.Select>
+                    </Form.Group>
+                  </Col>
+                  <Col sm={6}>
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                      <Form.Label className={"form-label"}>Llego a las</Form.Label>
+                      <Form.Select className={"form-select"} aria-label="Default select example" required {...register("entry_hour")}>
+                        <option disabled>Selecciona alguna</option>
+                        <option value="1">4</option>
+                        <option value="2">6</option>
+                        <option value="3">8</option>
+                        <option value="4">Al otro dia cuando se me de la gana</option>
+                      </Form.Select>
+                    </Form.Group>
+                  </Col>
+                  <Col sm={6}>
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                      <Form.Label className={"form-label"}>Me voy a ir a las</Form.Label>
+                      <Form.Select className={"form-select"} aria-label="Default select example" required {...register("exit_hour")}>
+                        <option disabled>Selecciona alguna</option>
+                        <option value="1">Media noche como cenicienta</option>
+                        <option value="2">Al otro dia después de desayunar</option>
+                        <option value="3">Hasta que me saquen de la finca</option>
+                        <option value="4">Yo me mando solo y me voy cuando se me de la gana</option>
+                      </Form.Select>
+                    </Form.Group>
+                  </Col>
 
-                <Button as="a" className={"btn-mao-1 mt-5"}>
-                  Enviar registro
+                <Button type="submit" className={"btn-mao-1 mt-5"}>
+                  Guardar
                 </Button>
-              </Form>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
-    /*<div>
-    <div className="container p-4">
-        <div className="logo">
-            <img src="../cabecera.png" />
-        </div>
-        <h1 className="form-title">Register</h1>
-        <div className="row justify-content-center">
-            <div className="col-sm-8">
-                <Form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="row">
-                        <div className="col-sm-6 mb-3">
-                            <label className="form-label" htmlFor="name">Name:</label>
-                            <input className="form-control" {...register("name")} required/>
-                        </div>
-                        <div className="col-sm-6 mb-3">
-                            <label className="form-label" htmlFor="phone">Phone:</label>
-                            <input className="form-control" {...register("phone")} type="number" required/>
-                        </div>
-                        <div className="col-sm-6 mb-3">
-                            <label className="form-label" htmlFor="plus_one">Plus:</label>
-                            <input className="form-control" {...register("plus_one")} required/>
-                        </div>
-                        <div className="col-sm-6 mb-3">
-                            <label className="form-label" htmlFor="email">Email:</label>
-                            <input className="form-control" {...register("email")} type="email" aria-required />
-                        </div>
-                        <div className="col-sm-6 mb-3">
-                            <label className="form-label" htmlFor="alcohol">Alcohol:</label>
-                            <select className="form-select" {...register("alcohol")} required >
-                                <option value="lots">Lots</option>
-                                <option value="not_a_lot">Not a lot</option>
-                                <option value="none">I'm sober</option>
-                            </select>
-                        </div>
-                        <div className="col-sm-6 mb-3">
-                            <label className="form-label" htmlFor="weed">Weed:</label>
-                            <select className="form-select" {...register("weed")} required>
 
-                                <option value="lots">Lots</option>
-                                <option value="not_a_lot">Not a lot</option>
-                                <option value="none">I'm sober</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div className="d-flex justify-content-center py-4">  
-                        <button className="btn btn-mao-1 btn-lg" type="submit">Enviar registro</button>
-                    </div>
-                </Form>
-            </div>
-
-        <p> Name: {name} </p>
-        <Form>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label className={"form-label"}>Email address</Form.Label>
-            <Form.Control type="email" placeholder="name@example.com" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label className={"form-label"}>Example textarea</Form.Label>
-            <Form.Control as="textarea" rows={3} />
-          </Form.Group>
+            </Row>
         </Form>
-    <Form onSubmit={handleSubmit(onSubmit)}>
-    <label htmlFor="name">Name:</label>
-    <input {...register("name")} />
-    <label htmlFor="phone">Phone:</label>
-    <input {...register("phone")} />
-    <label htmlFor="plus_one">Plus:</label>
-    <input {...register("plus_one")} />
-    <label htmlFor="alcohol">Alcohol:</label>
-    <select {...register("alcohol")} >
-        <option value="lots">Lots</option>
-        <option value="not_a_lot">Not a lot</option>
-        <option value="none">I'm sober</option>
-    </select>
-    <label htmlFor="weed">Weed:</label>
-        <select {...register("weed")} >
-
-            <option value="lots">Lots</option>
-            <option value="not_a_lot">Not a lot</option>
-            <option value="none">I'm sober</option>
-        </select>
-        <Button as="a" variant="primary">
-            Button as link
-        </Button>
-        <Button as="a" variant="success">
-            Button as link
-        </Button>
-        <button type="submit">Register</button>
-    </Form>
-    </div>
-);
-        </div>
-
-    </div>
-*/
+    </Container>
   );
 }
