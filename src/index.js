@@ -10,7 +10,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./error_page";
 import Registration from "./routes/registration";
-import ProfileInfo from "./routes/profileInfo";
+import Invitation from "./routes/invitation";
+import Profile from "./routes/profile";
 
 const router = createBrowserRouter([
   {
@@ -19,12 +20,16 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "profile/:slug",
-    element: <ProfileInfo />
+    path: "invitation/:slug",
+    element: <Invitation />
   },
   {
-    path: "profile/:slug/confirm",
+    path: "invitation/:slug/confirm",
     element: <Registration />
+  },
+  {
+    path: "profile/:slug",
+    element: <Profile />
   }
 ]);
 

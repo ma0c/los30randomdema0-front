@@ -3,10 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import {useLocation} from "react-router-dom";
-import {Form} from "react-bootstrap";
+import {useLocation, useNavigate} from "react-router-dom";
+import {Form, Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import {useState} from "react";
 
+const REGISTRATION_PATH = `registration/registration`
 
 export default function Registration() {
     const {state} = useLocation();
@@ -22,15 +24,74 @@ export default function Registration() {
             phone: profile.phone,
             whatsapp: profile.phone,
             instagram: profile.instagram,
-              possible_attendee: profile.id
+              possible_attendee: profile.id,
+              slug: profile.slug,
           }
       }
   );
-  const name = watch("name")
-   const onSubmit = (data) => console.log(data)
+    const [registrationErrors, setRegistrationErrors] = useState(null);
+    const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+
+    const navigate = useNavigate();
+   const onSubmit = (data) => {
+       console.log("Sending data");
+       console.log(data);
+
+
+        fetch(
+            `${process.env.REACT_APP_BASE_URL}/${REGISTRATION_PATH}/`,
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                },
+                method: 'POST',
+                body: JSON.stringify(data),
+            }
+        )
+        .then(response => {
+                if (response.ok) {
+                    response.json().then(data => {
+                        console.log(data)
+                        navigate(`/profile/${data.slug}`)
+                    })
+                }
+                else {
+                    console.log('Error:', response);
+                    console.log('Error:', response.body);
+                    console.log('Not FOUND');
+                    response.text().then(text => {
+                        setRegistrationErrors(text);
+                        setShow(true)
+                    })
+                }
+            }
+        )
+        .catch(error => {
+            console.log('Error:', error);
+            console.log('Not FOUND');
+            setRegistrationErrors(error);
+            setShow(true)
+
+        });
+   }
 
   return (
     <Container className={"p-4"}>
+
+        <Modal show={show} onHide={handleClose}>
+            <Modal.Header closeButton>
+              <Modal.Title>Algo salió mal :(</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>{registrationErrors}</Modal.Body>
+            <Modal.Footer>
+              <Button variant="primary" onClick={handleClose}>
+                Cerrar
+              </Button>
+            </Modal.Footer>
+          </Modal>
         <Form onSubmit={handleSubmit(onSubmit)}>
             <Row>
               <Col>
@@ -109,10 +170,10 @@ export default function Registration() {
                       <Form.Label className={"form-label"}>Llego a las</Form.Label>
                       <Form.Select className={"form-select"} aria-label="Default select example" required {...register("entry_hour")}>
                         <option disabled>Selecciona alguna</option>
-                        <option value="1">4</option>
-                        <option value="2">6</option>
-                        <option value="3">8</option>
-                        <option value="4">Al otro dia cuando se me de la gana</option>
+                        <option value="2024-09-14T16:00">4</option>
+                        <option value="2024-09-14T18:00">6</option>
+                        <option value="2024-09-14T20:00">8</option>
+                        <option value="2024-09-15T00:00">Al otro dia cuando se me de la gana</option>
                       </Form.Select>
                     </Form.Group>
                   </Col>
@@ -121,10 +182,10 @@ export default function Registration() {
                       <Form.Label className={"form-label"}>Me voy a ir a las</Form.Label>
                       <Form.Select className={"form-select"} aria-label="Default select example" required {...register("exit_hour")}>
                         <option disabled>Selecciona alguna</option>
-                        <option value="1">Media noche como cenicienta</option>
-                        <option value="2">Al otro dia después de desayunar</option>
-                        <option value="3">Hasta que me saquen de la finca</option>
-                        <option value="4">Yo me mando solo y me voy cuando se me de la gana</option>
+                        <option value="2024-09-15T00:00">Media noche como cenicienta</option>
+                        <option value="2024-09-15T10:00">Al otro dia después de desayunar</option>
+                        <option value="2024-09-15T17:00">Hasta que me saquen de la finca</option>
+                        <option value="2024-09-15T17:00">Yo me mando solo y me voy cuando se me de la gana</option>
                       </Form.Select>
                     </Form.Group>
                   </Col>

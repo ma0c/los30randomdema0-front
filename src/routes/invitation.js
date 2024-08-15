@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -7,10 +8,11 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { Link, useParams } from 'react-router-dom';
 import {Modal} from "react-bootstrap";
+import NotFound from "../NotFound";
 
 const POSSIBLE_ATTENDEE_PATH = `registration/possible_attendees`
 
-const ProfileInfo = () => {
+const Invitation = () => {
     const { slug } = useParams();
 
     const [profile, setProfile] = useState(null);
@@ -27,7 +29,13 @@ const ProfileInfo = () => {
 
     useEffect(() => {
         fetch(`${process.env.REACT_APP_BASE_URL}/${POSSIBLE_ATTENDEE_PATH}/${slug}/`)
-        .then(response => response.json())
+        .then(response => {
+            if (response.ok) return response.json()
+            else {
+                console.log('Not FOUND');
+                setProfile(null)
+            }
+        })
         .then(data => setProfile(data))
         .catch(error => {
             console.log('Error:', error);
@@ -85,8 +93,8 @@ const ProfileInfo = () => {
                   </Card>
               </Col>
           </Row>
-          </Container>) : ( <div>Profile not found</div>)
+          </Container>) : ( <NotFound />)
 
 }
 
-export default ProfileInfo;
+export default Invitation;
