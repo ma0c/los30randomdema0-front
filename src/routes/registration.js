@@ -170,10 +170,10 @@ export default function Registration() {
                       <Form.Label className={"form-label"}>Llego a las</Form.Label>
                       <Form.Select className={"form-select"} aria-label="Default select example" required {...register("entry_hour")}>
                         <option disabled>Selecciona alguna</option>
-                        <option value="2024-09-14T16:00">4</option>
-                        <option value="2024-09-14T18:00">6</option>
-                        <option value="2024-09-14T20:00">8</option>
-                        <option value="2024-09-15T00:00">Al otro dia cuando se me de la gana</option>
+                        <option value="2024-09-14T16:00:00-05:00">4</option>
+                        <option value="2024-09-14T18:00:00-05:00">6</option>
+                        <option value="2024-09-14T20:00:00-05:00">8</option>
+                        <option value="2024-09-15T00:00:00-05:00">Al otro dia cuando se me de la gana</option>
                       </Form.Select>
                     </Form.Group>
                   </Col>
@@ -182,10 +182,10 @@ export default function Registration() {
                       <Form.Label className={"form-label"}>Me voy a ir a las</Form.Label>
                       <Form.Select className={"form-select"} aria-label="Default select example" required {...register("exit_hour")}>
                         <option disabled>Selecciona alguna</option>
-                        <option value="2024-09-15T00:00">Media noche como cenicienta</option>
-                        <option value="2024-09-15T10:00">Al otro dia después de desayunar</option>
-                        <option value="2024-09-15T17:00">Hasta que me saquen de la finca</option>
-                        <option value="2024-09-15T17:00">Yo me mando solo y me voy cuando se me de la gana</option>
+                        <option value="2024-09-15T00:00:00-05:00">Media noche como cenicienta</option>
+                        <option value="2024-09-15T10:00:00-05:00">Al otro dia después de desayunar</option>
+                        <option value="2024-09-15T17:00:00-05:00">Hasta que me saquen de la finca</option>
+                        <option value="2024-09-15T17:00:00-05:00">Yo me mando solo y me voy cuando se me de la gana</option>
                       </Form.Select>
                     </Form.Group>
                   </Col>

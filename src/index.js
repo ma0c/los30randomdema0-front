@@ -12,6 +12,7 @@ import ErrorPage from "./error_page";
 import Registration from "./routes/registration";
 import Invitation from "./routes/invitation";
 import Profile from "./routes/profile";
+import UpdateProfilePic from "./routes/updateProfilePic";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "profile/:slug",
     element: <Profile />
+  },
+  {
+    path: "profile/:slug/profile-pic",
+    element: <UpdateProfilePic />
   }
 ]);
 
