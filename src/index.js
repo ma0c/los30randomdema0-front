@@ -13,6 +13,9 @@ import Registration from "./routes/registration";
 import Invitation from "./routes/invitation";
 import Profile from "./routes/profile";
 import UpdateProfilePic from "./routes/updateProfilePic";
+import Pokedex from "./routes/pokedex";
+import PokedexAdd from "./routes/pokedex_add";
+import PokedexProfile from "./routes/pokedex_profile";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +38,18 @@ const router = createBrowserRouter([
   {
     path: "profile/:slug/profile-pic",
     element: <UpdateProfilePic />
+  },
+  {
+    path: "pokedex",
+    element: <Pokedex />
+  },
+  {
+    path: "pokedex/add",
+    element: <PokedexAdd />
+  },
+  {
+    path: "pokedex/profile/:slug",
+    element: <PokedexProfile />
   }
 ]);
 

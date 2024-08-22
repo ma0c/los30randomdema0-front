@@ -7,7 +7,7 @@ import loading from "../../img/loading.gif";
 import axios from "axios";
 
 
-const POSSIBLE_ATTENDEE_PATH = `registration/possible_attendees`
+const POKEMON_ADD_PATH = `pokemon/connection`
 
 const QrReader = () => {
     // QR States
@@ -23,9 +23,13 @@ const QrReader = () => {
     const onScanSuccess = (result) => {
         console.log('Success read QR:', result);
         setScannedResult(result?.data);
-        axios.get(`${process.env.REACT_APP_BASE_URL}/${result}`, {
+        fetch(`${process.env.REACT_APP_BASE_URL}/POKEMON_ADD_PATH/${result}`, {
             headers: {
                 'Authorization': 'token',
+            },
+            method: 'POST',
+            body: {
+                followed: result
             }
         }).then(function (response) {
             // handle success
