@@ -11,7 +11,6 @@ function App() {
         <a>
           Ma0 is cooking something here
         </a>
-        <QrReader />
       </header>
 
     </div>
