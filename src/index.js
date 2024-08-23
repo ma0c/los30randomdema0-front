@@ -50,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "pokedex/profile/:slug",
     element: <PokedexProfile />
+  },
+  {
+    path: "me",
+    element: <PokedexProfile me/>
   }
 ]);
 

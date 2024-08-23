@@ -4,10 +4,9 @@ import QrScanner from "qr-scanner";
 import scan from "../../img/scan.png";
 import logo from "../../img/logo.png";
 import loading from "../../img/loading.gif";
-import axios from "axios";
 
 
-const POKEMON_ADD_PATH = `pokemon/connection`
+const POKEMON_ADD_PATH = `pokedex/connection`
 
 const QrReader = () => {
     // QR States
@@ -23,14 +22,20 @@ const QrReader = () => {
     const onScanSuccess = (result) => {
         console.log('Success read QR:', result);
         setScannedResult(result?.data);
-        fetch(`${process.env.REACT_APP_BASE_URL}/POKEMON_ADD_PATH/${result}`, {
+    };
+
+    useEffect(() => {
+        if (!scannedResult) return;
+        fetch(`${process.env.REACT_APP_BASE_URL}/${POKEMON_ADD_PATH}/`, {
             headers: {
-                'Authorization': 'token',
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+                'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
             },
             method: 'POST',
-            body: {
-                followed: result
-            }
+            body: JSON.stringify({
+                followed: scannedResult
+            })
         }).then(function (response) {
             // handle success
             console.log('Success axios:', response);
@@ -40,7 +45,7 @@ const QrReader = () => {
         }).finally(function () {
             scanner.current?.stop();
         });
-    };
+    }, [scannedResult])
 
     // Fail
     const onScanFail = (err) => {
@@ -120,7 +125,7 @@ const QrReader = () => {
                     <img style={{
                         position: "relative",
                         width: "100%"
-                    }} src={loading} />
+                    }} src={loading} alt="Ma0"/>
                 </div>
 
             )}

@@ -39,7 +39,7 @@ const Invitation = () => {
             }
             else {
                 console.log(response.status)
-                if (response.status == 400) {
+                if (response.status === 400) {
                     console.log('Redirecting');
                     navigate(`/profile/${slug}`)
                 }
@@ -55,7 +55,7 @@ const Invitation = () => {
             setProfile(null)
         });
     }
-    , []);
+    , [navigate, slug]);
 
   return profile ? ( <Container>
           <Modal show={show} onHide={handleClose}>

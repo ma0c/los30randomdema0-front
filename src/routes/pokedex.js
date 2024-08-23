@@ -36,8 +36,8 @@ export default function Pokedex() {
     return (
         <Container>
             <Row>
-                {profiles.map(profile => (
-                    <Col sm={4} xs={4} key={profile.number}>
+                {profiles.map((profile, index) => (
+                    <Col sm={4} xs={4} key={`col-${index}`}>
                         <Card>
                             {profile.attendee ? (
                                 <Link to={`profile/${profile.attendee.slug}`} state={{profile: profile}}><Card.Img variant="top" src={profile.attendee.profile_pic} /></Link>

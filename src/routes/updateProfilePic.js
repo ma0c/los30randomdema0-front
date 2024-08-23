@@ -5,9 +5,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import {useLocation, useNavigate} from "react-router-dom";
-import {Form, Image, Modal} from "react-bootstrap";
+import {Form, Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import {useRef, useState} from "react";
+import {useState} from "react";
 import {Input} from "../styles";
 
 const UPDATE_PROFILE_PIC_PATH = `registration/update_profile_pic`
@@ -41,7 +41,6 @@ export default function UpdateProfilePic() {
     const {state} = useLocation();
     const profile = state.profile;
   const {
-      register,
       handleSubmit,
       formState: { errors },
       control

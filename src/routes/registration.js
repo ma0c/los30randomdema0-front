@@ -16,16 +16,15 @@ export default function Registration() {
   const {
       register,
       handleSubmit,
-      watch,
-      formState: { errors } } = useForm(
-      {
+  } = useForm(
+{
           defaultValues: {
-                name: profile.name,
+            name: profile.name,
             phone: profile.phone,
             whatsapp: profile.phone,
             instagram: profile.instagram,
-              possible_attendee: profile.id,
-              slug: profile.slug,
+            possible_attendee: profile.id,
+            slug: profile.slug,
           }
       }
   );

@@ -6,9 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
 import { Link, useParams } from 'react-router-dom';
-import {Modal} from "react-bootstrap";
 import NotFound from "../NotFound";
 
 const REGISTRATION_PATH = `registration/registration`
@@ -33,7 +31,7 @@ const Invitation = () => {
             setProfile(null)
         });
     }
-    , []);
+    , [slug]);
 
     const readableDate = (date) => {
         const dateObj = new Date(date);
