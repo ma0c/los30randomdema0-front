@@ -1,8 +1,8 @@
-import QrReader from "../components/qr-scanner/qrScanner";
-import "../components/qr-scanner/qrStyles.css";
+import QrReader from "../../components/qr-scanner/qrScanner";
+import "../../components/qr-scanner/qrStyles.css";
 import {useEffect, useState} from "react";
 import Container from "react-bootstrap/Container";
-import loading from "../img/loading.gif";
+import loading from "../../img/loading.gif";
 import {Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useNavigate} from "react-router-dom";

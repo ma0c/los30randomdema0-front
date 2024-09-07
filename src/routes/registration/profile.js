@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Alert from 'react-bootstrap/Alert';
 import { Link, useParams } from 'react-router-dom';
-import NotFound from "../NotFound";
+import NotFound from "../../NotFound";
 
 const REGISTRATION_PATH = `registration/registration`
 

@@ -8,7 +8,7 @@ import {useLocation, useNavigate} from "react-router-dom";
 import {Form, Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useState} from "react";
-import {Input} from "../styles";
+import {Input} from "../../styles";
 
 const UPDATE_PROFILE_PIC_PATH = `registration/update_profile_pic`
 

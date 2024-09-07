@@ -9,13 +9,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./error_page";
-import Registration from "./routes/registration";
-import Invitation from "./routes/invitation";
-import Profile from "./routes/profile";
-import UpdateProfilePic from "./routes/updateProfilePic";
-import Pokedex from "./routes/pokedex";
-import PokedexAdd from "./routes/pokedex_add";
-import PokedexProfile from "./routes/pokedex_profile";
+import Registration from "./routes/registration/registration";
+import Invitation from "./routes/registration/invitation";
+import Profile from "./routes/registration/profile";
+import UpdateProfilePic from "./routes/registration/updateProfilePic";
+import Pokedex from "./routes/pokedex/pokedex";
+import PokedexAdd from "./routes/pokedex/pokedex_add";
+import PokedexProfile from "./routes/pokedex/pokedex_profile";
+import SakuraIndex from "./routes/sakura/sakura_index";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "me",
     element: <PokedexProfile me/>
+  },
+  {
+    path: "sakura",
+    element: <SakuraIndex/>
   }
 ]);
 

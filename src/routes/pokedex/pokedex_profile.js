@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import {Instagram, Whatsapp} from "react-bootstrap-icons";
-import NotFound from "../NotFound";
+import NotFound from "../../NotFound";
 import {useEffect, useState} from "react";
 import {Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
