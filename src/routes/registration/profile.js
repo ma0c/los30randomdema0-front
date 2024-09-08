@@ -19,8 +19,6 @@ const Invitation = () => {
     const [show, setShow] = useState(true);
 
 
-
-
     useEffect(() => {
         fetch(`${process.env.REACT_APP_BASE_URL}/${REGISTRATION_PATH}/${slug}/`)
         .then(response => response.json())
