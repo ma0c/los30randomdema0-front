@@ -19,6 +19,7 @@ import PokedexProfile from "./routes/pokedex/pokedex_profile";
 import SakuraIndex from "./routes/sakura/sakura_index";
 import CardList from "./routes/sakura/sakura_card_list";
 import CardDetail from "./routes/sakura/sakura_card_detail";
+import SakuraAdd from "./routes/sakura/sakura_add";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
     path: "sakura",
     element: <SakuraIndex/>
   },
+  {
+    path: "sakura/add",
+    element: <SakuraAdd/>
+  },,
   {
     path: "sakura/captured",
     element: <CardList captured />

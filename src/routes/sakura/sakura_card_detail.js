@@ -13,6 +13,7 @@ export default function CardDetail(props) {
     const {state} = useLocation();
     const { slug } = useParams();
     const card = state.card;
+    console.log("CARD", card);
     const [show, setShow] = useState(false);
     const [captureErrors, setCaptureErrors] = useState(null);
     const handleClose = () => {
@@ -26,18 +27,21 @@ export default function CardDetail(props) {
     const navigate = useNavigate();
     const onSubmit = (data) => {
        console.log("Sending data");
+       let url = `${process.env.REACT_APP_BASE_URL}/${CAPTURE_PATH}/${slug}/`;
+        if (card.isFirstTime) {
+            data.card = slug;
+            url = `${process.env.REACT_APP_BASE_URL}/${CAPTURE_PATH}/`;
+        }
        console.log(data);
-
-
         fetch(
-            `${process.env.REACT_APP_BASE_URL}/${CAPTURE_PATH}/${slug}/`,
+            url,
             {
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json',
                     'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
                 },
-                method: 'PATCH',
+                method: card.isFirstTime ? 'POST' : 'PATCH',
                 body: JSON.stringify(data),
             }
         )
