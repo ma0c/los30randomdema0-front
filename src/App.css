@@ -76,3 +76,15 @@ h1.form-title {
     transform: rotate(360deg);
   }
 }
+
+.container-sakura-card {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-sakura-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

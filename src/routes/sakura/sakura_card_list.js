@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import {Link, useLocation} from "react-router-dom";
 import {Accordion} from "react-bootstrap";
+import SakuraImageCard from "./sakura_image_card";
 
 export default function CardList(props) {
 
@@ -19,7 +20,7 @@ export default function CardList(props) {
     console.log("Grouped", groupedCards)
 
     return (
-        <Container>
+        <Container fluid>
             <Row>
                 <Col>
                     <h1>{captured?'Captured Cards':'Unsolved Cards'}</h1>
@@ -37,9 +38,8 @@ export default function CardList(props) {
 
                                 {groupedCards[card].map((card, index) => (
                                     <Col>
-                                    <Card key={`card-${index}`}>
-                                        <Card.Img variant="top" src={card.card.category.image} />
-                                    </Card>
+                                        <SakuraImageCard src={card.card.category.front_image} alt={card.card.category.name} text={card.card.question} color={card.card.category.is_special? "white":"black"} key={`card-${index}`}/>
+
                                     </Col>
                                 ))}
                             </Row>
