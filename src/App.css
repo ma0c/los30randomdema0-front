@@ -43,6 +43,32 @@ h1.form-title {
   transform: scale(1.1);
   color: white;
 }
+.btn-mao-2{
+  font-size: 24px;
+  background-color: #17A0DA;
+  border-color: #17A0DA;
+  color:white;
+  transition: background-color 0.3s ease; 
+}
+.btn-mao-2:hover{
+  background-color: #EF8119;
+  border-color: #EF8119;
+  transform: scale(1.1);
+  color: white; 
+}
+.btn-mao-3{
+  font-size: 24px;
+  background-color: #2C525D;
+  border-color: #2C525D;
+  color:white;
+  transition: background-color 0.3s ease; 
+}
+.btn-mao-3:hover{
+  background-color: #e2bd73;
+  border-color: #e2bd73;
+  transform: scale(1.1);
+  color: white; 
+}
 .card {
   border-style: dotted;
 }
@@ -55,7 +81,9 @@ h1.form-title {
   pointer-events: none;
 }
 
-
+body{
+  /*background-color:#282c34;*/
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -69,6 +97,140 @@ h1.form-title {
 
 .App-link {
   color: #61dafb;
+}
+
+#error-page{
+  height: 100vh;
+}
+#error-page h1{
+  color: #EF8119;
+}
+#error-page p{
+  font-size: 24px;
+  color: #2C525D;
+}
+#error-page p i {
+  font-size: 18px;
+  font-style: italic;
+}
+#pokedex-profile{
+  padding-inline: 30px;
+  background-color: #2C2F35;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-info .row{
+  margin-bottom: 10px;
+}
+.profile-name{
+  text-align: center;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.redes {
+  font-size: 22px;
+  align-items: center;
+
+}
+.redes span {
+padding-left: 8px;
+text-decoration: none;
+font-weight: 500;
+}
+.redes a {
+  text-decoration: none;
+  }
+.redes .whatsapp,.redes .instagram{
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 50%;
+  opacity: 60%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redes .bi-whatsapp {
+  font-size: 18px;
+}
+.redes .bi-instagram {
+  fill: #C13584;
+  font-size: 18px;
+}
+.profile-badges{
+  display: flex;
+  justify-content: center;
+}
+.profile-badge{
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #e2bd73;
+  transition: transform 0.6s ease;
+  margin: 0 5px;
+  max-width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  opacity: 90%;
+  mix-blend-mode: hard-light;
+}
+.profile-badge:hover{
+  transform: rotateY(360deg);
+}
+.profile-card{
+ padding: 15px;
+  justify-content: center;
+  background-color: #EF8119;
+  border-radius: 10px;
+}
+.profile{
+  background-image: url(img/fondoazul.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:10px;
+}
+.profile .row .col{
+  display: flex;
+  justify-content: center;
+}
+.profile-pic img{
+  
+}
+.profile-logo{
+  width: 50px;
+  background-color: #2C2F35;
+  border-radius: 50%;
+  padding: 5px;
+  height: 50px;
+  transform: rotateZ(10deg);
+}
+.card-header{
+  align-items: center;
+  justify-content: space-between!important;
+  width: 100%;
+}
+.header-badge{
+  background-color: lightgrey!important;
+  color:#2C2F35;
+  margin-left:-15px;
+}
+
+#pokedex{
+  background-color: #2C525D;
+  min-height: 100vh;
+}
+.pokedex-card{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #EF8119;
+  padding: 10px;
+  border: 3px solid #2C525D;
 }
 
 @keyframes App-logo-spin {
