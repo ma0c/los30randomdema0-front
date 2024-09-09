@@ -20,6 +20,7 @@ import SakuraIndex from "./routes/sakura/sakura_index";
 import CardList from "./routes/sakura/sakura_card_list";
 import CardDetail from "./routes/sakura/sakura_card_detail";
 import SakuraAdd from "./routes/sakura/sakura_add";
+import TheRules from "./routes/da_rulez";
 
 const router = createBrowserRouter([
   {
@@ -66,7 +67,7 @@ const router = createBrowserRouter([
   {
     path: "sakura/add",
     element: <SakuraAdd/>
-  },,
+  },
   {
     path: "sakura/captured",
     element: <CardList captured />
@@ -78,6 +79,10 @@ const router = createBrowserRouter([
   {
     path: "sakura/card/:slug",
     element: <CardDetail />
+  },
+  {
+    path: "reglamento",
+    element: <TheRules />
   }
 ]);
 
