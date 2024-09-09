@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import favicon from "../../img/favicon.ico";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
+import ButtonNavbar from "../../components/bottomNavbar";
 
 const POKEDEX_PATH = `pokedex/pokedex`
 export default function Pokedex() {
@@ -19,7 +20,7 @@ export default function Pokedex() {
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json',
-                    'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                    'Authorization': 'Token ' + localStorage.getItem('token')
                 }
             }
         )
@@ -54,6 +55,7 @@ export default function Pokedex() {
                     <Link to="add" ><Button variant="primary">Scan</Button></Link>
                 </Col>
             </Row>
+            <ButtonNavbar/>
         </Container>
     )
 }

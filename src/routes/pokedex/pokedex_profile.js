@@ -9,6 +9,7 @@ import {useEffect, useState} from "react";
 import {Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import QRCode from "react-qr-code";
+import ButtonNavbar from "../../components/bottomNavbar";
 
 
 const POKEDEX_PROFILE_PATH = `pokedex/profile`
@@ -33,7 +34,7 @@ export default function PokedexProfile(props) {
             `${process.env.REACT_APP_BASE_URL}/${FETCH_PROFILE_URL}`,
             {
                 headers: {
-                    'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                    'Authorization': 'Token ' + localStorage.getItem('token')
                 }
             }
         )
@@ -94,7 +95,7 @@ export default function PokedexProfile(props) {
               </Col>
           </Row>
         {me&&<Row><Col><Button onClick={handleOpen}>Mostrar QR</Button></Col></Row>}
-
+<ButtonNavbar/>
           </Container>) : ( <NotFound />)
 
 

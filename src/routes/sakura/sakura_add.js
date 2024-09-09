@@ -7,7 +7,6 @@ import {Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useNavigate} from "react-router-dom";
 
-const SAKURA_ADD_PATH = `sakura/capture-card/`
 const SAKURA_GET_PATH = `sakura/card`
 
 export default function SakuraAdd() {
@@ -31,7 +30,7 @@ export default function SakuraAdd() {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                'Authorization': 'Token ' + localStorage.getItem('token')
             },
             method: 'GET',
         }).then(function (response) {

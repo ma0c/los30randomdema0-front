@@ -21,12 +21,17 @@ import CardList from "./routes/sakura/sakura_card_list";
 import CardDetail from "./routes/sakura/sakura_card_detail";
 import SakuraAdd from "./routes/sakura/sakura_add";
 import TheRules from "./routes/da_rulez";
+import SetToken from "./routes/token";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "/token/:token",
+    element: <SetToken />,
   },
   {
     path: "invitation/:slug",

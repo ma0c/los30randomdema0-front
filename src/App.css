@@ -18,6 +18,9 @@ option, .form-select {
 .logo img {
   width: 20%;
 }
+h1 {
+  color:#2C525D;
+}
 h1.form-title {
   text-align: center;
   font-size: 50px;

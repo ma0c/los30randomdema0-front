@@ -6,6 +6,7 @@ import {Form, Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useState} from "react";
 import {useForm} from "react-hook-form";
+import ButtonNavbar from "../../components/bottomNavbar";
 
 const CAPTURE_PATH = `sakura/capture-card`
 
@@ -39,7 +40,7 @@ export default function CardDetail(props) {
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json',
-                    'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                    'Authorization': 'Token ' + localStorage.getItem('token')
                 },
                 method: card.isFirstTime ? 'POST' : 'PATCH',
                 body: JSON.stringify(data),
@@ -112,7 +113,7 @@ export default function CardDetail(props) {
                 </Col>
 
             </Row>
-
+<ButtonNavbar/>
         </Container>
     )
 }

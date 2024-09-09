@@ -30,7 +30,7 @@ export default function PokedexAdd() {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                'Authorization': 'Token ' + localStorage.getItem('token')
             },
             method: 'POST',
             body: JSON.stringify({

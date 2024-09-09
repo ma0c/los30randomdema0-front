@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 import {Link, useLocation} from "react-router-dom";
 import {Accordion} from "react-bootstrap";
 import SakuraImageCard from "./sakura_image_card";
+import ButtonNavbar from "../../components/bottomNavbar";
 
 export default function CardList(props) {
 
@@ -54,6 +55,7 @@ export default function CardList(props) {
                     </Col>
                     ))}
             </Row>
+            <ButtonNavbar/>
         </Container>
     )
 }

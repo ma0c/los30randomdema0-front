@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
+import ButtonNavbar from "../../components/bottomNavbar";
 
 const CAPTURED_CARDS_PATH = `sakura/captured-cards`
 export default function SakuraIndex() {
@@ -19,7 +20,7 @@ export default function SakuraIndex() {
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json',
-                    'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                    'Authorization': 'Token ' + localStorage.getItem('token')
                 }
             }
         )
@@ -56,6 +57,7 @@ export default function SakuraIndex() {
                     <Link to="add" ><Button variant="primary">Capture Card</Button></Link>
                 </Col>
             </Row>
+            <ButtonNavbar/>
         </Container>
     )
 }
