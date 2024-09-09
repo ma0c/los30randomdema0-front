@@ -1,21 +1,21 @@
-import QrReader from "../components/qr-scanner/qrScanner";
-import "../components/qr-scanner/qrStyles.css";
+import QrReader from "../../components/qr-scanner/qrScanner";
+import "../../components/qr-scanner/qrStyles.css";
 import {useEffect, useState} from "react";
 import Container from "react-bootstrap/Container";
-import loading from "../img/loading.gif";
+import loading from "../../img/loading_sakura.webp";
 import {Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useNavigate} from "react-router-dom";
 
-const POKEDEX_ADD_PATH = `pokedex/connection`
+const SAKURA_GET_PATH = `sakura/card`
 
-export default function PokedexAdd() {
+export default function SakuraAdd() {
     const [scannedResult, setScannedResult] = useState("");
     const [connectionErrors, setConnectionErrors] = useState(null);
     const [show, setShow] = useState(false);
     const handleClose = () => {
         setShow(false);
-        navigate('/pokedex');
+        navigate('/sakura');
     }
     const navigate = useNavigate();
     const callback = (result) => {
@@ -26,21 +26,18 @@ export default function PokedexAdd() {
 
     useEffect(() => {
         if (!scannedResult) return;
-        fetch(`${process.env.REACT_APP_BASE_URL}/${POKEDEX_ADD_PATH}/`, {
+        fetch(`${process.env.REACT_APP_BASE_URL}/${SAKURA_GET_PATH}/${scannedResult}`, {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                'Authorization': 'Token ' + localStorage.getItem('token')
             },
-            method: 'POST',
-            body: JSON.stringify({
-                followed: scannedResult
-            })
+            method: 'GET',
         }).then(function (response) {
             if (response.ok) {
                 response.json().then(data => {
                     console.log(data)
-                    navigate(`/pokedex`)
+                    navigate(`/sakura/card/${data.slug}`, {state: {card: {card: data, solved: false, isFirstTime: true}}})
                 })
             }
             else {

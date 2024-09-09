@@ -9,19 +9,29 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./error_page";
-import Registration from "./routes/registration";
-import Invitation from "./routes/invitation";
-import Profile from "./routes/profile";
-import UpdateProfilePic from "./routes/updateProfilePic";
-import Pokedex from "./routes/pokedex";
-import PokedexAdd from "./routes/pokedex_add";
-import PokedexProfile from "./routes/pokedex_profile";
+import Registration from "./routes/registration/registration";
+import Invitation from "./routes/registration/invitation";
+import Profile from "./routes/registration/profile";
+import UpdateProfilePic from "./routes/registration/updateProfilePic";
+import Pokedex from "./routes/pokedex/pokedex";
+import PokedexAdd from "./routes/pokedex/pokedex_add";
+import PokedexProfile from "./routes/pokedex/pokedex_profile";
+import SakuraIndex from "./routes/sakura/sakura_index";
+import CardList from "./routes/sakura/sakura_card_list";
+import CardDetail from "./routes/sakura/sakura_card_detail";
+import SakuraAdd from "./routes/sakura/sakura_add";
+import TheRules from "./routes/da_rulez";
+import SetToken from "./routes/token";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "/token/:token",
+    element: <SetToken />,
   },
   {
     path: "invitation/:slug",
@@ -54,6 +64,30 @@ const router = createBrowserRouter([
   {
     path: "me",
     element: <PokedexProfile me/>
+  },
+  {
+    path: "sakura",
+    element: <SakuraIndex/>
+  },
+  {
+    path: "sakura/add",
+    element: <SakuraAdd/>
+  },
+  {
+    path: "sakura/captured",
+    element: <CardList captured />
+  },
+  {
+    path: "sakura/unsolved",
+    element: <CardList />
+  },
+  {
+    path: "sakura/card/:slug",
+    element: <CardDetail />
+  },
+  {
+    path: "reglamento",
+    element: <TheRules />
   }
 ]);
 

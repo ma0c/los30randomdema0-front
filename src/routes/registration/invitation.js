@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css';
+import '../../App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import {Link, useNavigate, useParams} from 'react-router-dom';
 import {Modal} from "react-bootstrap";
-import NotFound from "../NotFound";
+import NotFound from "../../NotFound";
 
 const POSSIBLE_ATTENDEE_PATH = `registration/possible_attendees`
 

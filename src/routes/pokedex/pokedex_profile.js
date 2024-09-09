@@ -5,12 +5,13 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 import { Instagram, Whatsapp } from "react-bootstrap-icons";
-import NotFound from "../NotFound";
+import NotFound from "../../NotFound";
 import { useEffect, useState } from "react";
 import { Modal } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import QRCode from "react-qr-code";
-import logo from '../img/logo.png';
+import logo from '../../img/logo.png';
+import ButtonNavbar from "../../components/bottomNavbar";
 
 
 const POKEDEX_PROFILE_PATH = `pokedex/profile`
@@ -35,7 +36,7 @@ export default function PokedexProfile(props) {
             `${process.env.REACT_APP_BASE_URL}/${FETCH_PROFILE_URL}`,
             {
                 headers: {
-                    'Authorization': 'Token ' + (localStorage.getItem('token') || 'asd')
+                    'Authorization': 'Token ' + localStorage.getItem('token')
                 }
             }
         )
@@ -111,6 +112,7 @@ export default function PokedexProfile(props) {
                     ))}
                 </Row>
                 {me && <Row className={'mt-4'}><Col><Button onClick={handleOpen} className={'btn-mao-1'}>Mostrar QR</Button></Col></Row>}
+                <ButtonNavbar/>
             </Col>
         </Row>
 
