@@ -40,7 +40,7 @@ const Invitation = () => {
 
   return profile ? ( <Container>
       <Alert variant={'success'} className={'mt-5'} onClose={() => setShow(false)} dismissible>
-            Tu foto va a ser usada para varias actividades, si no te gusta la que escogí, por favor actualizala <Link to="profile-pic" state={{profile: profile}}>aquí</Link>
+            Tu foto va a ser usada para varias actividades, si no te gusta la que escogí, por favor <Link to="profile-pic" state={{profile: profile}}>actualizala aquí</Link>
       </Alert>
           <Row>
               <Col>

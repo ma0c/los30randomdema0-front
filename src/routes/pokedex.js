@@ -1,11 +1,11 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import favicon from "../img/favicon.ico";
 import Button from "react-bootstrap/Button";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const POKEDEX_PATH = `pokedex/pokedex`
 export default function Pokedex() {
@@ -23,36 +23,39 @@ export default function Pokedex() {
                 }
             }
         )
-        .then(response => response.json())
-        .then(data => {setProfiles(data); console.log(data)})
-        .catch(error => {
-            console.log('Error:', error);
-            console.log('Not FOUND');
-            setProfiles([])
-        });
+            .then(response => response.json())
+            .then(data => { setProfiles(data); console.log(data) })
+            .catch(error => {
+                console.log('Error:', error);
+                console.log('Not FOUND');
+                setProfiles([])
+            });
     }
-    , []);
+        , []);
 
     return (
-        <Container>
-            <Row>
+        <Container className={"p-4"} id="pokedex">
+            <Row className="mb-4">
+                <Col className="justify-content-center d-flex">
+                    <Link to="add" ><Button className="btn-mao-2" size="lg">Escanear QR</Button></Link>
+                </Col>
+            </Row>
+            <Row className="align-items-center justify-content-between">
                 {profiles.map((profile, index) => (
-                    <Col sm={4} xs={4} key={`col-${index}`}>
+                    <Col sm={4} xs={6} key={`col-${index}`} className="pokedex-card justify-content-center">
+
                         <Card>
                             {profile.attendee ? (
-                                <Link to={`profile/${profile.attendee.slug}`} state={{profile: profile}}><Card.Img variant="top" src={profile.attendee.profile_pic} /></Link>
+                                <Link to={`profile/${profile.attendee.slug}`} state={{ profile: profile }}>
+                                    <Card.Img src={profile.attendee.profile_pic} />
+                                </Link>
                             ) : (
-                                <Card.Img variant="top" src={favicon} />
+                                <Card.Img src={favicon} />
                             )}
 
                         </Card>
                     </Col>
                 ))}
-            </Row>
-            <Row>
-                <Col>
-                    <Link to="add" ><Button variant="primary">Scan</Button></Link>
-                </Col>
             </Row>
         </Container>
     )
