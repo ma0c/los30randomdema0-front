@@ -1,5 +1,6 @@
 .qr-box {
     transform: scale(1) !important;
+    text-align: center;
 }
 
 .qr-container {
@@ -28,6 +29,7 @@
     width: 430px;
     height: 430px;
     margin: 0 auto;
+    margin-top: 100px;
     position: relative;
 }
 

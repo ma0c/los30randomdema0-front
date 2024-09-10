@@ -6,6 +6,8 @@ import loading from "../../img/loading_sakura.webp";
 import {Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useNavigate} from "react-router-dom";
+import TopNavbar from "../../components/topNavbar";
+import ButtonNavbar from "../../components/bottomNavbar";
 
 const SAKURA_GET_PATH = `sakura/card`
 
@@ -73,6 +75,7 @@ export default function SakuraAdd() {
               </Button>
             </Modal.Footer>
           </Modal>
+            <TopNavbar/>
             <div className="qr-reader">
                 <QrReader callback={callback}/>
                 {scannedResult && (
@@ -91,6 +94,7 @@ export default function SakuraAdd() {
 
             )}
             </div>
+            <ButtonNavbar/>
         </Container>
 )
 }

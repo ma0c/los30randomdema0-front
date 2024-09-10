@@ -12,6 +12,7 @@ import Button from "react-bootstrap/Button";
 import QRCode from "react-qr-code";
 import logo from '../../img/logo.png';
 import ButtonNavbar from "../../components/bottomNavbar";
+import TopNavbar from "../../components/topNavbar";
 
 
 const POKEDEX_PROFILE_PATH = `pokedex/profile`
@@ -65,6 +66,7 @@ export default function PokedexProfile(props) {
             </Modal.Footer>
         </Modal>
         }
+        <TopNavbar/>
         <Row className="profile-card g-0">
             <Col className="profile">
                 <Row className="g-0">

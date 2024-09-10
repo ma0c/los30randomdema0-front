@@ -6,6 +6,7 @@ import {Link, useLocation} from "react-router-dom";
 import {Accordion} from "react-bootstrap";
 import SakuraImageCard from "./sakura_image_card";
 import ButtonNavbar from "../../components/bottomNavbar";
+import TopNavbar from "../../components/topNavbar";
 
 export default function CardList(props) {
 
@@ -14,40 +15,19 @@ export default function CardList(props) {
     const {captured} = props;
     console.log("Captured", captured)
 
-    const groupedCards = cards.reduce((acc, card) => {
-        (acc[card.card.category.name] = acc[card.card.category.name] || []).push(card);
-        return acc;
-    }, {})
-    console.log("Grouped", groupedCards)
+
 
     return (
         <Container fluid>
-            <Row>
+            <TopNavbar/>
+            <Row className="margin-top-header">
                 <Col>
                     <h1>{captured?'Captured Cards':'Unsolved Cards'}</h1>
 
                 </Col>
             </Row>
             <Row>
-                {captured ? (
-                    <Accordion defaultActiveKey="0"> {Object.keys(groupedCards).map((card, index) => (
-                    <Accordion.Item eventKey={index.toString()} key={index}>
-
-                        <Accordion.Header>{card} {groupedCards[card].length}/{groupedCards[card][0].card.category.question_in_category}</Accordion.Header>
-                        <Accordion.Body>
-                            <Row>
-
-                                {groupedCards[card].map((card, index) => (
-                                    <Col>
-                                        <SakuraImageCard src={card.card.category.front_image} alt={card.card.category.name} text={card.card.question} color={card.card.category.is_special? "white":"black"} key={`card-${index}`}/>
-
-                                    </Col>
-                                ))}
-                            </Row>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                ))}
-                    </Accordion>) : cards.map((card, index) => (
+                {cards.map((card, index) => (
                     <Col sm={4} xs={4} key={`col-${index}`}>
                         <Card>
                             <Link to={`/sakura/card/${card.card.slug}`} state={{card: card}}><Card.Img variant="top" src={card.card.category.image} /></Link>

@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import {useState} from "react";
 import {useForm} from "react-hook-form";
 import ButtonNavbar from "../../components/bottomNavbar";
+import TopNavbar from "../../components/topNavbar";
 
 const CAPTURE_PATH = `sakura/capture-card`
 
@@ -93,10 +94,11 @@ export default function CardDetail(props) {
               </Button>
             </Modal.Footer>
           </Modal>
-            <Row>
+            <TopNavbar/>
+            <Row className="margin-top-header">
                 <Col>
                   <h1>Card Detail</h1>
-                    <p>
+                    <p style={{color: "white"}}>
                         {card.card.question}
                     </p>
                     {!card.solved && (

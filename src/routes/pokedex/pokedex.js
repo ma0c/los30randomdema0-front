@@ -7,6 +7,7 @@ import favicon from "../../img/favicon.ico";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
 import ButtonNavbar from "../../components/bottomNavbar";
+import TopNavbar from "../../components/topNavbar";
 
 const POKEDEX_PATH = `pokedex/pokedex`
 export default function Pokedex() {
@@ -36,7 +37,8 @@ export default function Pokedex() {
 
     return (
         <Container className={"p-4"} id="pokedex">
-            <Row className="mb-4">
+            <TopNavbar/>
+            <Row className="mb-4 margin-top-header">
                 <Col className="justify-content-center d-flex">
                     <Link to="add" ><Button className="btn-mao-2" size="lg">Escanear QR</Button></Link>
                 </Col>
@@ -57,11 +59,6 @@ export default function Pokedex() {
                         </Card>
                     </Col>
                 ))}
-            </Row>
-            <Row>
-                <Col>
-                    <Link to="add" ><Button variant="primary">Scan</Button></Link>
-                </Col>
             </Row>
             <ButtonNavbar/>
         </Container>

@@ -6,6 +6,8 @@ import loading from "../../img/loading_pikachu.gif";
 import {Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useNavigate} from "react-router-dom";
+import TopNavbar from "../../components/topNavbar";
+import ButtonNavbar from "../../components/bottomNavbar";
 
 const POKEDEX_ADD_PATH = `pokedex/connection`
 
@@ -76,6 +78,7 @@ export default function PokedexAdd() {
               </Button>
             </Modal.Footer>
           </Modal>
+            <TopNavbar/>
             <div className="qr-reader">
                 <QrReader callback={callback}/>
                 {scannedResult && (
@@ -94,6 +97,7 @@ export default function PokedexAdd() {
 
             )}
             </div>
+            <ButtonNavbar/>
         </Container>
 )
 }
