@@ -20,6 +20,7 @@ option, .form-select {
 }
 h1 {
   color:#2C525D;
+  font-size: 30px!important;
 }
 h1.form-title {
   text-align: center;
@@ -28,7 +29,7 @@ h1.form-title {
   margin-bottom: 20px;
 }
 .btn-mao-1{
-  font-size: 24px;
+  font-size: 22px;
   background-color: #EF8119;
   border-color: #EF8119;
   color:white;
@@ -44,7 +45,7 @@ h1.form-title {
   color: white;
 }
 .btn-mao-2{
-  font-size: 24px;
+  font-size: 22px;
   background-color: #17A0DA;
   border-color: #17A0DA;
   color:white;
@@ -256,4 +257,27 @@ font-weight: 500;
 
 .margin-top-header {
   margin-top: 100px;
+}
+
+.pill-naranja{
+  background-color: #EF8119!important;
+}
+.text-naranja{
+  color: #ef8119 !important;
+}
+.text-azul{
+  color: #17a0da !important;
+}
+.accordion-button:not(.collapsed){
+  background-color: #b0d4f1;
+}
+.accordion-button {
+  font-size: 20px;
+}
+.nav-link svg {
+  font-size: 24px;
+}
+.pregunta{
+  color:white;
+  font-size: 20px;
 }

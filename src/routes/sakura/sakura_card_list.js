@@ -16,19 +16,18 @@ export default function CardList(props) {
     console.log("Captured", captured)
 
 
-
     return (
         <Container fluid>
             <TopNavbar/>
             <Row className="margin-top-header">
                 <Col>
-                    <h1>{captured?'Captured Cards':'Unsolved Cards'}</h1>
+                    <h1 className="text-naranja mb-3">{captured?'Cartas capturadas':'Cartas sin capturar'}</h1>
 
                 </Col>
             </Row>
-            <Row>
+            <Row className="justify-content-center">
                 {cards.map((card, index) => (
-                    <Col sm={4} xs={4} key={`col-${index}`}>
+                    <Col sm={4} xs={5} key={`col-${index}`}>
                         <Card>
                             <Link to={`/sakura/card/${card.card.slug}`} state={{card: card}}><Card.Img variant="top" src={card.card.category.image} /></Link>
                         </Card>

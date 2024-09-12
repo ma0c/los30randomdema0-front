@@ -1,12 +1,13 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import {Link} from "react-router-dom";
+import Badge from "react-bootstrap/Badge";
+import { Link } from "react-router-dom";
 import ButtonNavbar from "../../components/bottomNavbar";
 import TopNavbar from "../../components/topNavbar";
-import {Accordion} from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
 import SakuraImageCard from "./sakura_image_card";
 
 const CAPTURED_CARDS_PATH = `sakura/captured-cards`
@@ -27,19 +28,19 @@ export default function SakuraIndex() {
                 }
             }
         )
-        .then(response => response.json())
-        .then(data => {setCards(data); console.log(data)})
-        .catch(error => {
-            console.log('Error:', error);
-            console.log('Not FOUND');
-            setCards([])
-        });
+            .then(response => response.json())
+            .then(data => { setCards(data); console.log(data) })
+            .catch(error => {
+                console.log('Error:', error);
+                console.log('Not FOUND');
+                setCards([])
+            });
     }
-    , []);
+        , []);
 
     useEffect(() => {
         const solvedCards = cards.filter(card => card.solved);
-            const groupedCards = solvedCards.reduce((acc, card) => {
+        const groupedCards = solvedCards.reduce((acc, card) => {
             (acc[card.card.category.name] = acc[card.card.category.name] || []).push(card);
             return acc;
         }, {})
@@ -49,40 +50,47 @@ export default function SakuraIndex() {
 
     return (
         <Container>
-            <TopNavbar/>
+            <TopNavbar />
             <Row className="mb-4 margin-top-header">
-                <Col className="justify-content-center d-flex">
+                <Col className="justify-content-between d-flex">
                     <Link to="add" ><Button className="btn-mao-2" size="lg">Escanear QR</Button></Link>
-                    <Link to="unsolved" state={{cards: unsolvedCards}} ><Button className="btn-mao-2" size="lg">Cartas no resueltas {unsolvedCards.length} </Button></Link>
+                    <Link to="unsolved" state={{ cards: unsolvedCards }} ><Button className="btn-mao-2" size="lg">Cartas no resueltas  <Badge pill className="pill-naranja">
+                    {unsolvedCards.length}
+                    </Badge> </Button></Link>
                 </Col>
             </Row>
             <Row >
                 <Col>
-                    <h1>Cartas Capturadas {cards.length - unsolvedCards.length}/100</h1>
+                    <Row>
+                        <Col className="justify-content-between d-flex">
+                        <h1 className="text-naranja">Cartas Capturadas </h1>
+                        <h1 className="text-azul">{cards.length - unsolvedCards.length}/100</h1>
+                        </Col>
+                    </Row>
                     <Accordion defaultActiveKey="0"> {Object.keys(solvedCards).map((card, index) => (
-                    <Accordion.Item eventKey={index.toString()} key={index}>
+                        <Accordion.Item eventKey={index.toString()} key={index}>
 
-                        <Accordion.Header>{card} {solvedCards[card].length}/{solvedCards[card][0].card.category.question_in_category}</Accordion.Header>
-                        <Accordion.Body>
-                            <Row>
+                            <Accordion.Header>{card} {solvedCards[card].length}/{solvedCards[card][0].card.category.question_in_category}</Accordion.Header>
+                            <Accordion.Body>
+                                <Row>
 
-                                {solvedCards[card].map((card, index) => (
-                                    <Col>
-                                        <SakuraImageCard src={card.card.category.front_image} alt={card.card.category.name} text={card.card.question} color={card.card.category.is_special? "white":"black"} key={`card-${index}`}/>
+                                    {solvedCards[card].map((card, index) => (
+                                        <Col>
+                                            <SakuraImageCard src={card.card.category.front_image} alt={card.card.category.name} text={card.card.question} color={card.card.category.is_special ? "white" : "black"} key={`card-${index}`} />
 
-                                    </Col>
-                                ))}
-                            </Row>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                ))}
+                                        </Col>
+                                    ))}
+                                </Row>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    ))}
                     </Accordion>
                 </Col>
 
             </Row>
 
 
-            <ButtonNavbar/>
+            <ButtonNavbar />
         </Container>
     )
 }
