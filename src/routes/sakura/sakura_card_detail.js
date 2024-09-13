@@ -18,6 +18,7 @@ export default function CardDetail(props) {
     console.log("CARD", card);
     const [show, setShow] = useState(false);
     const [captureErrors, setCaptureErrors] = useState(null);
+    const [modalTitle, setModalTitle] = useState('Algo salió mal :(');
     const handleClose = () => {
         setShow(false);
         navigate('/sakura');
@@ -52,10 +53,12 @@ export default function CardDetail(props) {
                     response.json().then(data => {
                         console.log(data)
                         if (data.solved) {
+                            setModalTitle("Wohooo!")
                             setCaptureErrors("Respuesta Correcta");
                             setShow(true)
                         }
                         else {
+                            setModalTitle("Oopsie");
                             setCaptureErrors("Respuesta incorrecta");
                             setShow(true)
                         }
@@ -84,7 +87,7 @@ export default function CardDetail(props) {
         <Container>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Algo salió mal :(</Modal.Title>
+                    <Modal.Title>{modalTitle}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>{captureErrors}</Modal.Body>
                 <Modal.Footer>

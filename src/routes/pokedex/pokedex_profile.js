@@ -73,7 +73,7 @@ export default function PokedexProfile(props) {
                     <Col className="card-header">
                         <div className="d-flex align-items-start">
                             <Badge pill className="header-badge">
-                                HBD Ma0
+                                #{profile.number}
                             </Badge>
                             <h1 className={'profile-name'}>{profile.attendee.name}</h1>
                         </div>
@@ -106,8 +106,8 @@ export default function PokedexProfile(props) {
                 <Row className="mt-4 profile-badges">
 
                     {profile.badges && profile.badges.map(badge => (
-                        <Col className={'profile-badge'}>
-                            <img src={badge.image} alt={badge.name} width={35} />
+                        <Col className={'profile-badge'} key={badge.name}>
+                            <img src={badge.image} alt={badge.name} width={35}/>
 
                         </Col>
 

@@ -3,8 +3,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import {Link, useLocation} from "react-router-dom";
-import {Accordion} from "react-bootstrap";
-import SakuraImageCard from "./sakura_image_card";
 import ButtonNavbar from "../../components/bottomNavbar";
 import TopNavbar from "../../components/topNavbar";
 
