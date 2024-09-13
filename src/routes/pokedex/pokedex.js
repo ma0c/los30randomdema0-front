@@ -13,6 +13,7 @@ const POKEDEX_PATH = `pokedex/pokedex`
 export default function Pokedex() {
 
     const [profiles, setProfiles] = useState([]);
+    const [capturedPokemon, setCapturedPokemon] = useState([]);
 
     useEffect(() => {
         fetch(
@@ -35,12 +36,24 @@ export default function Pokedex() {
     }
         , []);
 
+    useEffect(() => {
+        const capturedPokemon = profiles.filter(profile => profile.attendee);
+        setCapturedPokemon(capturedPokemon);
+
+    }, [profiles]);
+
     return (
         <Container className={"p-4"} id="pokedex">
             <TopNavbar/>
             <Row className="mb-4 margin-top-header">
                 <Col className="justify-content-center d-flex">
                     <Link to="add" ><Button className="btn-mao-2" size="lg">Escanear QR</Button></Link>
+                </Col>
+            </Row>
+            <Row>
+                    <Col className="justify-content-between d-flex">
+                    <h1 className="text-naranja">Pokemones Capturadas </h1>
+                    <h1 className="text-azul">{capturedPokemon.length}/{profiles.length}</h1>
                 </Col>
             </Row>
             <Row className="align-items-center justify-content-between">
