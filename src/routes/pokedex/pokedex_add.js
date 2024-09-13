@@ -42,7 +42,7 @@ export default function PokedexAdd() {
             if (response.ok) {
                 response.json().then(data => {
                     console.log(data)
-                    navigate(`/pokedex`)
+                    navigate(`/pokedex/profile/${data.followed}`)
                 })
             }
             else {
