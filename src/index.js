@@ -22,6 +22,7 @@ import CardDetail from "./routes/sakura/sakura_card_detail";
 import SakuraAdd from "./routes/sakura/sakura_add";
 import TheRules from "./routes/da_rulez";
 import SetToken from "./routes/token";
+import Instagram from "./routes/instagram";
 
 const router = createBrowserRouter([
   {
@@ -88,6 +89,10 @@ const router = createBrowserRouter([
   {
     path: "reglamento",
     element: <TheRules />
+  },
+  {
+    path: "fotos",
+    element: <Instagram />
   }
 ]);
 

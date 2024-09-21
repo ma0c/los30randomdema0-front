@@ -59,7 +59,7 @@ export default function SakuraIndex() {
                     </Badge> </Button></Link>
                 </Col>
             </Row>
-            <Row >
+            <Row className="mb-4">
                 <Col>
                     <Row>
                         <Col className="justify-content-between d-flex">
