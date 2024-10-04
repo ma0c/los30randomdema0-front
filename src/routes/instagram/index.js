@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import ButtonNavbar from "../../components/bottomNavbar";
 import TopNavbar from "../../components/topNavbar";
+import photosResponse from "../../mocked_responses/photos.json"
 
 const INSTAGRAM_PATH = `instagram/photos`
 export default function Instagram() {
@@ -12,23 +13,24 @@ export default function Instagram() {
     const [photos, setPhotos] = useState([]);
 
     useEffect(() => {
-        fetch(
-            `${process.env.REACT_APP_BASE_URL}/${INSTAGRAM_PATH}/`,
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json',
-                    'Authorization': 'Token ' + localStorage.getItem('token')
-                }
-            }
-        )
-            .then(response => response.json())
-            .then(data => { setPhotos(data); console.log(data) })
-            .catch(error => {
-                console.log('Error:', error);
-                console.log('Not FOUND');
-                setPhotos([])
-            });
+    //     fetch(
+    //         `${process.env.REACT_APP_BASE_URL}/${INSTAGRAM_PATH}/`,
+    //         {
+    //             headers: {
+    //                 'Content-Type': 'application/json',
+    //                 'Accept': 'application/json',
+    //                 'Authorization': 'Token ' + localStorage.getItem('token')
+    //             }
+    //         }
+    //     )
+    //         .then(response => response.json())
+    //         .then(data => { setPhotos(data); console.log(data) })
+    //         .catch(error => {
+    //             console.log('Error:', error);
+    //             console.log('Not FOUND');
+    //             setPhotos([])
+    //         });
+    setPhotos(photosResponse);
     }
         , []);
 

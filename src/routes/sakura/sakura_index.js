@@ -9,8 +9,9 @@ import ButtonNavbar from "../../components/bottomNavbar";
 import TopNavbar from "../../components/topNavbar";
 import { Accordion } from "react-bootstrap";
 import SakuraImageCard from "./sakura_image_card";
+import sakuraResponse from "../../mocked_responses/sakura.json";
 
-const CAPTURED_CARDS_PATH = `sakura/captured-cards`
+// const CAPTURED_CARDS_PATH = `sakura/captured-cards`
 export default function SakuraIndex() {
 
     const [cards, setCards] = useState([]);
@@ -18,23 +19,24 @@ export default function SakuraIndex() {
     const [unsolvedCards, setUnsolvedCards] = useState([]);
 
     useEffect(() => {
-        fetch(
-            `${process.env.REACT_APP_BASE_URL}/${CAPTURED_CARDS_PATH}/`,
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json',
-                    'Authorization': 'Token ' + localStorage.getItem('token')
-                }
-            }
-        )
-            .then(response => response.json())
-            .then(data => { setCards(data); console.log(data) })
-            .catch(error => {
-                console.log('Error:', error);
-                console.log('Not FOUND');
-                setCards([])
-            });
+        // fetch(
+        //     `${process.env.REACT_APP_BASE_URL}/${CAPTURED_CARDS_PATH}/`,
+        //     {
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //             'Accept': 'application/json',
+        //             'Authorization': 'Token ' + localStorage.getItem('token')
+        //         }
+        //     }
+        // )
+        //     .then(response => response.json())
+        //     .then(data => { setCards(data); console.log(data) })
+        //     .catch(error => {
+        //         console.log('Error:', error);
+        //         console.log('Not FOUND');
+        //         setCards([])
+        //     });
+        setCards(sakuraResponse);
     }
         , []);
 
@@ -53,10 +55,14 @@ export default function SakuraIndex() {
             <TopNavbar />
             <Row className="mb-4 margin-top-header">
                 <Col className="justify-content-between d-flex">
-                    <Link to="add" ><Button className="btn-mao-2" size="lg">Escanear QR</Button></Link>
-                    <Link to="unsolved" state={{ cards: unsolvedCards }} ><Button className="btn-mao-2" size="lg">Cartas no resueltas  <Badge pill className="pill-naranja">
+                    {/*<Link to="add" >*/}
+                        <Button className="btn-mao-2" size="lg" disabled>Escanear QR</Button>
+                    {/*</Link>*/}
+                    {/*<Link to="unsolved" state={{ cards: unsolvedCards }} >*/}
+                        <Button className="btn-mao-2" size="lg" disabled>Cartas no resueltas  <Badge pill className="pill-naranja">
                     {unsolvedCards.length}
-                    </Badge> </Button></Link>
+                    </Badge> </Button>
+                    {/*</Link>*/}
                 </Col>
             </Row>
             <Row className="mb-4">

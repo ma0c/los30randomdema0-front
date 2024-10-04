@@ -32,24 +32,24 @@ export default function PokedexProfile(props) {
 
     const FETCH_PROFILE_URL = me ? POKEDEX_ME_PATH : `${POKEDEX_PROFILE_PATH}/${slug}/`
 
-    useEffect(() => {
-        fetch(
-            `${process.env.REACT_APP_BASE_URL}/${FETCH_PROFILE_URL}`,
-            {
-                headers: {
-                    'Authorization': 'Token ' + localStorage.getItem('token')
-                }
-            }
-        )
-            .then(response => response.json())
-            .then(data => { setProfile(data); console.log(data) })
-            .catch(error => {
-                console.log('Error:', error);
-                console.log('Not FOUND');
-                setProfile(null)
-            });
-    }
-        , [FETCH_PROFILE_URL]);
+    // useEffect(() => {
+    //     fetch(
+    //         `${process.env.REACT_APP_BASE_URL}/${FETCH_PROFILE_URL}`,
+    //         {
+    //             headers: {
+    //                 'Authorization': 'Token ' + localStorage.getItem('token')
+    //             }
+    //         }
+    //     )
+    //         .then(response => response.json())
+    //         .then(data => { setProfile(data); console.log(data) })
+    //         .catch(error => {
+    //             console.log('Error:', error);
+    //             console.log('Not FOUND');
+    //             setProfile(null)
+    //         });
+    // }
+    //     , [FETCH_PROFILE_URL]);
 
     return profile ? (<Container id="pokedex-profile">
         {me && <Modal show={show} onHide={handleClose}>

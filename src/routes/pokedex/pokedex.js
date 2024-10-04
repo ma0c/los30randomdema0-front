@@ -8,31 +8,33 @@ import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
 import ButtonNavbar from "../../components/bottomNavbar";
 import TopNavbar from "../../components/topNavbar";
+import pokedexResponse from "../../mocked_responses/pokedex.json";
 
-const POKEDEX_PATH = `pokedex/pokedex`
+// const POKEDEX_PATH = `pokedex/pokedex`
 export default function Pokedex() {
 
     const [profiles, setProfiles] = useState([]);
     const [capturedPokemon, setCapturedPokemon] = useState([]);
 
     useEffect(() => {
-        fetch(
-            `${process.env.REACT_APP_BASE_URL}/${POKEDEX_PATH}/`,
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json',
-                    'Authorization': 'Token ' + localStorage.getItem('token')
-                }
-            }
-        )
-            .then(response => response.json())
-            .then(data => { setProfiles(data); console.log(data) })
-            .catch(error => {
-                console.log('Error:', error);
-                console.log('Not FOUND');
-                setProfiles([])
-            });
+        // fetch(
+        //     `${process.env.REACT_APP_BASE_URL}/${POKEDEX_PATH}/`,
+        //     {
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //             'Accept': 'application/json',
+        //             'Authorization': 'Token ' + localStorage.getItem('token')
+        //         }
+        //     }
+        // )
+        //     .then(response => response.json())
+        //     .then(data => { setProfiles(data); console.log(data) })
+        //     .catch(error => {
+        //         console.log('Error:', error);
+        //         console.log('Not FOUND');
+        //         setProfiles([])
+        //     });
+        setProfiles(pokedexResponse);
     }
         , []);
 
@@ -47,7 +49,9 @@ export default function Pokedex() {
             <TopNavbar/>
             <Row className="mb-4 margin-top-header">
                 <Col className="justify-content-center d-flex">
-                    <Link to="add" ><Button className="btn-mao-2" size="lg">Escanear QR</Button></Link>
+                    {/*<Link to="add" >*/}
+                        <Button className="btn-mao-2" size="lg" disabled>Escanear QR</Button>
+                    {/*</Link>*/}
                 </Col>
             </Row>
             <Row>

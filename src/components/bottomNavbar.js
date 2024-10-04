@@ -11,7 +11,7 @@ export default function ButtonNavbar() {
                     <Nav.Link href="/pokedex"><Diagram2Fill color="white"/> </Nav.Link>
                     <Nav.Link href="/sakura"><TypeItalic color="white"/></Nav.Link>
                     <Nav.Link href="/fotos"><Instagram color="white"/></Nav.Link>
-                    <Nav.Link href="/me"><PersonCircle color="white"/></Nav.Link>
+                    {/*<Nav.Link href="/me"><PersonCircle color="white"/></Nav.Link>*/}
                 </Container>
             </Navbar>
         </div>

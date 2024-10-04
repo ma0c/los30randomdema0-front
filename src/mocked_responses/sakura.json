@@ -1,0 +1,1802 @@
+[
+    {
+        "card": {
+            "serial_number": 1,
+            "slug": "27XCF",
+            "question": "Quien fue el primer campeón mundial de boxeo profesional de colombia",
+            "theme": "Boxeo",
+            "category": {
+                "name": "Boxeo",
+                "slug": "boxeo",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/boxeo.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/boxeo.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 2,
+            "slug": "QE9IV",
+            "question": "Quien fue la primera medalla olímpica de boxeo en colombia",
+            "theme": "Boxeo",
+            "category": {
+                "name": "Boxeo",
+                "slug": "boxeo",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/boxeo.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/boxeo.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 3,
+            "slug": "BSO0U",
+            "question": "Salón de la fama de boxeo colombiano",
+            "theme": "Boxeo",
+            "category": {
+                "name": "Boxeo",
+                "slug": "boxeo",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/boxeo.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/boxeo.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 4,
+            "slug": "31O5C",
+            "question": "Cuantos Rounds y de cuantos minutos tiene una pelea amateur masculina",
+            "theme": "Boxeo",
+            "category": {
+                "name": "Boxeo",
+                "slug": "boxeo",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/boxeo.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/boxeo.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 5,
+            "slug": "82P8X",
+            "question": "Cuántas medallas tiene colombia en boxeo olimpico",
+            "theme": "Boxeo",
+            "category": {
+                "name": "Boxeo",
+                "slug": "boxeo",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/boxeo.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/boxeo.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 6,
+            "slug": "WZZP2",
+            "question": "What was the character's name that Björk played in which critically acclaimed 2000 film directed by Lars von Trier?",
+            "theme": "Pop Culture Females",
+            "category": {
+                "name": "Pop Culture Females",
+                "slug": "pop-culture-females",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pop-culture.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pop-culture.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 7,
+            "slug": "1TFL3",
+            "question": "Which Britney Spears album features the song\"Toxic\" and when was it released?",
+            "theme": "Pop Culture Females",
+            "category": {
+                "name": "Pop Culture Females",
+                "slug": "pop-culture-females",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pop-culture.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pop-culture.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 8,
+            "slug": "1YSZN",
+            "question": "What is the name of the 1991 documentary that followed Madonna during her legendary \"Blond Ambition\" tour?",
+            "theme": "Pop Culture Females",
+            "category": {
+                "name": "Pop Culture Females",
+                "slug": "pop-culture-females",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pop-culture.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pop-culture.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 9,
+            "slug": "F5X97",
+            "question": "What line from the Song \"Push It\" did the band Garbage used as title for their book?",
+            "theme": "Pop Culture Females",
+            "category": {
+                "name": "Pop Culture Females",
+                "slug": "pop-culture-females",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pop-culture.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pop-culture.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 10,
+            "slug": "V39Q8",
+            "question": "At what age did Billie Eilish first gain significant attention with her song \"Ocean Eyes\"?",
+            "theme": "Pop Culture Females",
+            "category": {
+                "name": "Pop Culture Females",
+                "slug": "pop-culture-females",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pop-culture.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pop-culture.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 11,
+            "slug": "SQ3VG",
+            "question": "Cuales son los nombres de los miembros de BTS",
+            "theme": "K-Drama",
+            "category": {
+                "name": "K-Drama",
+                "slug": "k-drama",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kpop.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kdrama.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 12,
+            "slug": "U5DB0",
+            "question": "Chaebol mas grande en coreano",
+            "theme": "K-Drama",
+            "category": {
+                "name": "K-Drama",
+                "slug": "k-drama",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kpop.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kdrama.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 13,
+            "slug": "OT785",
+            "question": "Primer dorama emitido en Colombia ",
+            "theme": "K-Drama",
+            "category": {
+                "name": "K-Drama",
+                "slug": "k-drama",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kpop.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kdrama.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 14,
+            "slug": "W4ZR2",
+            "question": "Actor coreano mejor pagado ",
+            "theme": "K-Drama",
+            "category": {
+                "name": "K-Drama",
+                "slug": "k-drama",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kpop.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kdrama.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 15,
+            "slug": "C10AJ",
+            "question": "actor coreano que aparecio en marvel",
+            "theme": "K-Drama",
+            "category": {
+                "name": "K-Drama",
+                "slug": "k-drama",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kpop.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kdrama.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 16,
+            "slug": "87R7X",
+            "question": "Como se llama la empresa que desarrolla LOL",
+            "theme": "Otaku",
+            "category": {
+                "name": "Otaku",
+                "slug": "otaku",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/otaku.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/otaku.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 17,
+            "slug": "LTPKH",
+            "question": "Que estudio produjo Attack on Titan, Jujutsu Kaisen y Chainsaw Man",
+            "theme": "Otaku",
+            "category": {
+                "name": "Otaku",
+                "slug": "otaku",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/otaku.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/otaku.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 18,
+            "slug": "KT7R9",
+            "question": "Como se llama el ramen que come naruto",
+            "theme": "Otaku",
+            "category": {
+                "name": "Otaku",
+                "slug": "otaku",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/otaku.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/otaku.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 19,
+            "slug": "049XK",
+            "question": "Cual es la diferencia entre Manga y Manwha",
+            "theme": "Otaku",
+            "category": {
+                "name": "Otaku",
+                "slug": "otaku",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/otaku.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/otaku.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 20,
+            "slug": "8M4SP",
+            "question": "Juego MMORPG Frances diseñado en francia en 2004 de estrategia por turnos desarrollado en flash",
+            "theme": "Otaku",
+            "category": {
+                "name": "Otaku",
+                "slug": "otaku",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/otaku.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/otaku.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 21,
+            "slug": "04993",
+            "question": "¿Qué significa \"kosher\"?",
+            "theme": "Kosher",
+            "category": {
+                "name": "Kosher",
+                "slug": "kosher",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kosher.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kosher.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 22,
+            "slug": "1J8SW",
+            "question": "¿Cuáles son los dos signos de un mamífero kosher?",
+            "theme": "Kosher",
+            "category": {
+                "name": "Kosher",
+                "slug": "kosher",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kosher.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kosher.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 23,
+            "slug": "45731",
+            "question": "¿Cuáles son las dos señales de que un pescado es kosher? ",
+            "theme": "Kosher",
+            "category": {
+                "name": "Kosher",
+                "slug": "kosher",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kosher.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kosher.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 24,
+            "slug": "J7WM9",
+            "question": "¿Por qué se sala la carne kosher?",
+            "theme": "Kosher",
+            "category": {
+                "name": "Kosher",
+                "slug": "kosher",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kosher.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kosher.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 25,
+            "slug": "O33DN",
+            "question": "Con qué no se puede mezclar la carne",
+            "theme": "Kosher",
+            "category": {
+                "name": "Kosher",
+                "slug": "kosher",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/kosher.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/kosher.jpeg",
+                "is_special": true,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 26,
+            "slug": "L2A0H",
+            "question": "Cual fue el primer reptil volador descubierto",
+            "theme": "Paleontologia",
+            "category": {
+                "name": "Paleontología",
+                "slug": "paleontologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/paleontologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/paleonotlogia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 27,
+            "slug": "7N9P4",
+            "question": "Nombre de la familia de dinosaurios herviboros gigantes",
+            "theme": "Paleontologia",
+            "category": {
+                "name": "Paleontología",
+                "slug": "paleontologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/paleontologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/paleonotlogia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 28,
+            "slug": "4WY89",
+            "question": "Familia de dinosaurios ancestros de los tiburones",
+            "theme": "Paleontologia",
+            "category": {
+                "name": "Paleontología",
+                "slug": "paleontologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/paleontologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/paleonotlogia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 29,
+            "slug": "RWGEC",
+            "question": "El super continente mas famoso",
+            "theme": "Paleontologia",
+            "category": {
+                "name": "Paleontología",
+                "slug": "paleontologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/paleontologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/paleonotlogia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 30,
+            "slug": "99496",
+            "question": "Gallina super desarrollada",
+            "theme": "Paleontologia",
+            "category": {
+                "name": "Paleontología",
+                "slug": "paleontologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/paleontologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/paleonotlogia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 31,
+            "slug": "CE9SX",
+            "question": "En que cúmulo está ubicada la via láctea",
+            "theme": "Astrologia",
+            "category": {
+                "name": "Astrología",
+                "slug": "astrologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/astronomia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/astronomia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 32,
+            "slug": "1349H",
+            "question": "Qué tipo de estrella es el sol",
+            "theme": "Astrologia",
+            "category": {
+                "name": "Astrología",
+                "slug": "astrologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/astronomia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/astronomia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 33,
+            "slug": "NHKZ6",
+            "question": "En que luna de jupiter se cree hay agua?",
+            "theme": "Astrologia",
+            "category": {
+                "name": "Astrología",
+                "slug": "astrologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/astronomia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/astronomia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 34,
+            "slug": "RBLPU",
+            "question": "La luna del que se volvió enano",
+            "theme": "Astrologia",
+            "category": {
+                "name": "Astrología",
+                "slug": "astrologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/astronomia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/astronomia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 35,
+            "slug": "0BW6M",
+            "question": "La galaxia mas cercana a la nuestra",
+            "theme": "Astrologia",
+            "category": {
+                "name": "Astrología",
+                "slug": "astrologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/astronomia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/astronomia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 36,
+            "slug": "5TGGI",
+            "question": "Cual es el ELO minimo para ser un GM",
+            "theme": "Ajedrez",
+            "category": {
+                "name": "Ajedrez",
+                "slug": "ajedrez",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/ajedrez.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/ajedrez.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 37,
+            "slug": "SG50C",
+            "question": "Campeón del mundo con mas años defendiendo el título",
+            "theme": "Ajedrez",
+            "category": {
+                "name": "Ajedrez",
+                "slug": "ajedrez",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/ajedrez.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/ajedrez.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 38,
+            "slug": "ZC506",
+            "question": "Sacrificar un peón en una apertura es llamado",
+            "theme": "Ajedrez",
+            "category": {
+                "name": "Ajedrez",
+                "slug": "ajedrez",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/ajedrez.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/ajedrez.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 39,
+            "slug": "IXA45",
+            "question": "Quien es el poseedor del mayor ELO en ajedrez Clasico de FIDE",
+            "theme": "Ajedrez",
+            "category": {
+                "name": "Ajedrez",
+                "slug": "ajedrez",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/ajedrez.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/ajedrez.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 40,
+            "slug": "D4I43",
+            "question": "Nombre del Campeón actual de la FIDE",
+            "theme": "Ajedrez",
+            "category": {
+                "name": "Ajedrez",
+                "slug": "ajedrez",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/ajedrez.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/ajedrez.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 41,
+            "slug": "EM8C4",
+            "question": "El macondo de Gabo es el missisipi de",
+            "theme": "Literatura",
+            "category": {
+                "name": "Literatura",
+                "slug": "literatura",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/literatura.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/literatura.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 42,
+            "slug": "OSA64",
+            "question": "El terror cósmico fue creado por",
+            "theme": "Literatura",
+            "category": {
+                "name": "Literatura",
+                "slug": "literatura",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/literatura.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/literatura.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 43,
+            "slug": "F3HK8",
+            "question": "El visionario de la luna, los submarinos, los globos y las escavadoras",
+            "theme": "Literatura",
+            "category": {
+                "name": "Literatura",
+                "slug": "literatura",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/literatura.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/literatura.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 44,
+            "slug": "P7816",
+            "question": "El de la distopia de la policía del pensamiento",
+            "theme": "Literatura",
+            "category": {
+                "name": "Literatura",
+                "slug": "literatura",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/literatura.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/literatura.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 45,
+            "slug": "8H8E6",
+            "question": "La mejor novela de todos los tiempos",
+            "theme": "Literatura",
+            "category": {
+                "name": "Literatura",
+                "slug": "literatura",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/literatura.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/literatura.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 46,
+            "slug": "23ZQC",
+            "question": "Los jardines colgantes quedaban en",
+            "theme": "Historia Universal",
+            "category": {
+                "name": "Historia Universal",
+                "slug": "historia-universal",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/historia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/historia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 47,
+            "slug": "KH223",
+            "question": "El coloso era de ",
+            "theme": "Historia Universal",
+            "category": {
+                "name": "Historia Universal",
+                "slug": "historia-universal",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/historia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/historia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 48,
+            "slug": "B3AWO",
+            "question": "La mas grande y famosa seductora egipcia",
+            "theme": "Historia Universal",
+            "category": {
+                "name": "Historia Universal",
+                "slug": "historia-universal",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/historia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/historia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 49,
+            "slug": "E0KQ1",
+            "question": "Carretera que conectaba china con africa y europa",
+            "theme": "Historia Universal",
+            "category": {
+                "name": "Historia Universal",
+                "slug": "historia-universal",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/historia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/historia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 50,
+            "slug": "9F056",
+            "question": "Los romanos la quemaron y le echaron sal",
+            "theme": "Historia Universal",
+            "category": {
+                "name": "Historia Universal",
+                "slug": "historia-universal",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/historia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/historia.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 51,
+            "slug": "BT391",
+            "question": "Una dona en topología se llama",
+            "theme": "Matematicas",
+            "category": {
+                "name": "Matemáticas",
+                "slug": "matematicas",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/matematicas.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/matematicas.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 52,
+            "slug": "S8C06",
+            "question": "Girar un objeto plano sobre un eje genera un",
+            "theme": "Matematicas",
+            "category": {
+                "name": "Matemáticas",
+                "slug": "matematicas",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/matematicas.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/matematicas.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 53,
+            "slug": "1QMI7",
+            "question": "Se consiguen de superficie, dobles o triples",
+            "theme": "Matematicas",
+            "category": {
+                "name": "Matemáticas",
+                "slug": "matematicas",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/matematicas.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/matematicas.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 54,
+            "slug": "KYX7R",
+            "question": "Cuantos numeros hay entre 0 y 1",
+            "theme": "Matematicas",
+            "category": {
+                "name": "Matemáticas",
+                "slug": "matematicas",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/matematicas.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/matematicas.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 55,
+            "slug": "RSETF",
+            "question": "La matemática que no es infinitesimal es",
+            "theme": "Matematicas",
+            "category": {
+                "name": "Matemáticas",
+                "slug": "matematicas",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/matematicas.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/matematicas.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 56,
+            "slug": "90P88",
+            "question": "Gran deidad en el universo de Lovecraft",
+            "theme": "H P Lovecraft",
+            "category": {
+                "name": "H P Lovecraft",
+                "slug": "h-p-lovecraft",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/lovecraft.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/lovecraft.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 57,
+            "slug": "CPT9C",
+            "question": "El pueblo que hizo evacuar Yog-Sototh",
+            "theme": "H P Lovecraft",
+            "category": {
+                "name": "H P Lovecraft",
+                "slug": "h-p-lovecraft",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/lovecraft.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/lovecraft.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 58,
+            "slug": "0JB0F",
+            "question": "El libro maldito de la obra de Lovecraft",
+            "theme": "H P Lovecraft",
+            "category": {
+                "name": "H P Lovecraft",
+                "slug": "h-p-lovecraft",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/lovecraft.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/lovecraft.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 59,
+            "slug": "N5A21",
+            "question": "Juego de terror inspirado en Lovecraft",
+            "theme": "H P Lovecraft",
+            "category": {
+                "name": "H P Lovecraft",
+                "slug": "h-p-lovecraft",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/lovecraft.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/lovecraft.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 60,
+            "slug": "U0IZW",
+            "question": "Donde duerme Cthulhu",
+            "theme": "H P Lovecraft",
+            "category": {
+                "name": "H P Lovecraft",
+                "slug": "h-p-lovecraft",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/lovecraft.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/lovecraft.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 61,
+            "slug": "9RD72",
+            "question": "El zeus romano",
+            "theme": "Mitología",
+            "category": {
+                "name": "Mitología",
+                "slug": "mitologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/mitologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/mitologia.jpeg",
+                "is_special": false,
+                "question_in_category": 6
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 62,
+            "slug": "35RNJ",
+            "question": "Nos regalo el fuego",
+            "theme": "Mitología",
+            "category": {
+                "name": "Mitología",
+                "slug": "mitologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/mitologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/mitologia.jpeg",
+                "is_special": false,
+                "question_in_category": 6
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 63,
+            "slug": "A1B95",
+            "question": "Tejía de día y destejía de noche",
+            "theme": "Mitología",
+            "category": {
+                "name": "Mitología",
+                "slug": "mitologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/mitologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/mitologia.jpeg",
+                "is_special": false,
+                "question_in_category": 6
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 64,
+            "slug": "380MW",
+            "question": "Se quedó en el infierno por comer semillitas",
+            "theme": "Mitología",
+            "category": {
+                "name": "Mitología",
+                "slug": "mitologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/mitologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/mitologia.jpeg",
+                "is_special": false,
+                "question_in_category": 6
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 65,
+            "slug": "X2P42",
+            "question": "El perro de tres cabezas",
+            "theme": "Mitología",
+            "category": {
+                "name": "Mitología",
+                "slug": "mitologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/mitologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/mitologia.jpeg",
+                "is_special": false,
+                "question_in_category": 6
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 66,
+            "slug": "0WS6G",
+            "question": "Le cortó las huevitas a su papa antes de materlo",
+            "theme": "Mitología",
+            "category": {
+                "name": "Mitología",
+                "slug": "mitologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/mitologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/mitologia.jpeg",
+                "is_special": false,
+                "question_in_category": 6
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 67,
+            "slug": "9SN4D",
+            "question": "El que sexualizaba todo",
+            "theme": "Psicología",
+            "category": {
+                "name": "Psicología",
+                "slug": "psicologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/psicologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/psicologia.jpeg",
+                "is_special": false,
+                "question_in_category": 4
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 68,
+            "slug": "E2YTE",
+            "question": "El de los arquetipos",
+            "theme": "Psicología",
+            "category": {
+                "name": "Psicología",
+                "slug": "psicologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/psicologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/psicologia.jpeg",
+                "is_special": false,
+                "question_in_category": 4
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 69,
+            "slug": "2E4Z3",
+            "question": "El caso de la señora que se dejo terapiar de tres manes",
+            "theme": "Psicología",
+            "category": {
+                "name": "Psicología",
+                "slug": "psicologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/psicologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/psicologia.jpeg",
+                "is_special": false,
+                "question_in_category": 4
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 70,
+            "slug": "181R5",
+            "question": "El del aquí y el ahora",
+            "theme": "Psicología",
+            "category": {
+                "name": "Psicología",
+                "slug": "psicologia",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/psicologia.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/psicologia.jpeg",
+                "is_special": false,
+                "question_in_category": 4
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 71,
+            "slug": "48Z2G",
+            "question": "Dos líneas melódicas haciendo armonía",
+            "theme": "Música",
+            "category": {
+                "name": "Música",
+                "slug": "musica",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/musica.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/musica.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 72,
+            "slug": "F22NX",
+            "question": "Poner acordes de otra escala",
+            "theme": "Música",
+            "category": {
+                "name": "Música",
+                "slug": "musica",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/musica.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/musica.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 73,
+            "slug": "S9H1E",
+            "question": "El que nadie quiere de la familia de las cuerdas frotadas",
+            "theme": "Música",
+            "category": {
+                "name": "Música",
+                "slug": "musica",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/musica.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/musica.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 74,
+            "slug": "U633B",
+            "question": "Esta hecho de cobre pero lo categorizan como madera",
+            "theme": "Música",
+            "category": {
+                "name": "Música",
+                "slug": "musica",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/musica.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/musica.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 75,
+            "slug": "HC906",
+            "question": "El de las manos inmensas",
+            "theme": "Música",
+            "category": {
+                "name": "Música",
+                "slug": "musica",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/musica.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/musica.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 76,
+            "slug": "076P7",
+            "question": "En teoría de busqueda es eficiente y completo",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 77,
+            "slug": "9Q47U",
+            "question": "Posiblemente el único lenguaje de programación lógica",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 78,
+            "slug": "KZBA5",
+            "question": "El más conocido de distancia mínima en grafos",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 79,
+            "slug": "UW31V",
+            "question": "Las mónadas pertenecen a la programación",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 80,
+            "slug": "TH7F8",
+            "question": "Catapultó el procesamiento de imágenes en 2012",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 81,
+            "slug": "QQHN7",
+            "question": "BERT y GPT son",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 82,
+            "slug": "12Z3Q",
+            "question": "Antes de ser ágiles eran",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 83,
+            "slug": "2ID5H",
+            "question": "El nuevo compilado debajo de docker y k8s",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 84,
+            "slug": "X97T5",
+            "question": "El de mozilla que es lo mejor de C pero sin ser C",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 85,
+            "slug": "P1R7I",
+            "question": "Porque las llaves son aburridas y preferimos los espacios",
+            "theme": "Ciencias de la Computación",
+            "category": {
+                "name": "Ciencias de la Computación",
+                "slug": "ciencias-de-la-computacion",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/computacion.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/computacion.jpeg",
+                "is_special": false,
+                "question_in_category": 10
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 86,
+            "slug": "EMF7R",
+            "question": "Levantamos las manos por goku para que haga una",
+            "theme": "Anime",
+            "category": {
+                "name": "Ánime",
+                "slug": "anime",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/anime.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/anime.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 87,
+            "slug": "X2321",
+            "question": "La primera respiración y de la que se descomponen todas las demás",
+            "theme": "Anime",
+            "category": {
+                "name": "Ánime",
+                "slug": "anime",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/anime.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/anime.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 88,
+            "slug": "0749P",
+            "question": "El papasito ojiazul del vacío infinito",
+            "theme": "Anime",
+            "category": {
+                "name": "Ánime",
+                "slug": "anime",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/anime.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/anime.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 89,
+            "slug": "42BIT",
+            "question": "La mascota motosierra",
+            "theme": "Anime",
+            "category": {
+                "name": "Ánime",
+                "slug": "anime",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/anime.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/anime.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 90,
+            "slug": "99852",
+            "question": "Yo no tengo enemigos",
+            "theme": "Anime",
+            "category": {
+                "name": "Ánime",
+                "slug": "anime",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/anime.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/anime.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 91,
+            "slug": "OT1K3",
+            "question": "El resultado de la circunferencia de la gravedad del asunto",
+            "theme": "Random",
+            "category": {
+                "name": "Random",
+                "slug": "random",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/random.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/random.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 92,
+            "slug": "917W0",
+            "question": "El kaiju mas famoso",
+            "theme": "Random",
+            "category": {
+                "name": "Random",
+                "slug": "random",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/random.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/random.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 93,
+            "slug": "3QF66",
+            "question": "La trinidad hebrea del cielo, agua y tierra",
+            "theme": "Random",
+            "category": {
+                "name": "Random",
+                "slug": "random",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/random.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/random.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 94,
+            "slug": "NHT68",
+            "question": "Marvel Jesus",
+            "theme": "Random",
+            "category": {
+                "name": "Random",
+                "slug": "random",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/random.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/random.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 95,
+            "slug": "5U4M0",
+            "question": "I'm inevitable",
+            "theme": "Random",
+            "category": {
+                "name": "Random",
+                "slug": "random",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/random.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/random.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 96,
+            "slug": "20KJB",
+            "question": "El pokemon barco tipo hielo por excelencia",
+            "theme": "Pokemon",
+            "category": {
+                "name": "Pokemon",
+                "slug": "pokemon",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pokemon.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pokemon.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 97,
+            "slug": "QS88T",
+            "question": "El pokemon que tiene todo el material genético de los demás",
+            "theme": "Pokemon",
+            "category": {
+                "name": "Pokemon",
+                "slug": "pokemon",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pokemon.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pokemon.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 98,
+            "slug": "6JI76",
+            "question": "El creador del universo pokemon",
+            "theme": "Pokemon",
+            "category": {
+                "name": "Pokemon",
+                "slug": "pokemon",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pokemon.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pokemon.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 99,
+            "slug": "6NSDI",
+            "question": "Pokemon Protector del tiempo",
+            "theme": "Pokemon",
+            "category": {
+                "name": "Pokemon",
+                "slug": "pokemon",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pokemon.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pokemon.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    },
+    {
+        "card": {
+            "serial_number": 100,
+            "slug": "1CQ5Q",
+            "question": "Se necesita para megaevolucionar un pokemon",
+            "theme": "Pokemon",
+            "category": {
+                "name": "Pokemon",
+                "slug": "pokemon",
+                "color": "#000000",
+                "image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories/pokemon.jpeg",
+                "front_image": "https://s3.amazonaws.com/los30randomdema0.com/media/card-categories-front/pokemon.jpeg",
+                "is_special": false,
+                "question_in_category": 5
+            }
+        },
+        "solved": true
+    }
+]
