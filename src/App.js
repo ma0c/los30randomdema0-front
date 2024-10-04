@@ -12,7 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
           Ma0 is cooking something here
       </header>
-        {token && <ButtonNavbar/>}
+        <ButtonNavbar/>
     </div>
   );
 }
